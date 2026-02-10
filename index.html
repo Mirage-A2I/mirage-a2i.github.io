@@ -1,0 +1,592 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Mirage-AI builds LLM, RAG, AI Agent, CV, and chatbot solutions for businesses. Fast delivery, production-grade engineering, global collaboration." />
+  <meta name="theme-color" content="#0b1220" />
+  <title>Mirage-AI | AI • LLM • RAG • Agents • Chatbots</title>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <!-- Top Notice -->
+  <div class="topbar">
+    <div class="container topbar__inner">
+      <div class="topbar__left">
+        <span class="badge">🚀 Open for Projects</span>
+        <span class="muted">AI/LLM/RAG/Agent/Chatbot • Global Collaboration</span>
+      </div>
+      <div class="topbar__right">
+        <a class="toplink" href="#contact">Contact</a>
+        <a class="toplink" href="#services">Services</a>
+        <a class="toplink" href="#work">Work</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container header__inner">
+      <a class="brand" href="#home" aria-label="Mirage-AI Home">
+        <span class="brand__mark">M</span>
+        <span class="brand__text">
+          <strong>Mirage-AI</strong>
+          <span class="muted">AI Research & Engineering</span>
+        </span>
+      </a>
+
+      <nav class="nav" aria-label="Primary">
+        <a href="#services">Services</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#work">Case Studies</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn--ghost" href="#contact">Get Proposal</a>
+      </nav>
+
+      <button class="menuBtn" id="menuBtn" aria-label="Open menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile menu -->
+    <div class="mobileMenu" id="mobileMenu" hidden>
+      <div class="container mobileMenu__inner">
+        <a href="#services">Services</a>
+        <a href="#solutions">Solutions</a>
+        <a href="#work">Case Studies</a>
+        <a href="#process">Process</a>
+        <a href="#faq">FAQ</a>
+        <a class="btn btn--primary" href="#contact">Get Proposal</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <main id="home">
+    <section class="hero">
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <div class="kicker">
+            <span class="dot"></span>
+            <span>Production-grade AI delivery • LLM • RAG • Agents • CV • Chatbots</span>
+          </div>
+
+          <h1>
+            Build revenue-driving AI systems that
+            <span class="grad">ship fast</span> and
+            <span class="grad">scale safely</span>.
+          </h1>
+
+          <p class="lead">
+            Mirage-AI designs and deploys end-to-end solutions: LLM apps, Retrieval-Augmented Generation (RAG),
+            AI Agents, computer vision pipelines, and intelligent chatbots — optimized for accuracy, latency,
+            cost, and security.
+          </p>
+
+          <div class="hero__cta">
+            <a class="btn btn--primary" href="#contact">Request a Project Proposal</a>
+            <a class="btn btn--secondary" href="#services">Explore Services</a>
+          </div>
+
+          <div class="trustRow">
+            <div class="trustCard">
+              <strong>Fast Delivery</strong>
+              <span class="muted">PoC in days • MVP in weeks</span>
+            </div>
+            <div class="trustCard">
+              <strong>Production Ready</strong>
+              <span class="muted">Observability • Guardrails • CI/CD</span>
+            </div>
+            <div class="trustCard">
+              <strong>Quality Focused</strong>
+              <span class="muted">Eval harness • Red-teaming • QA</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__panel">
+          <div class="panel">
+            <div class="panel__header">
+              <span class="chip">LLM App</span>
+              <span class="chip">RAG</span>
+              <span class="chip">Agent</span>
+              <span class="chip">CV</span>
+            </div>
+
+            <div class="panel__body">
+              <div class="metric">
+                <div class="metric__label">Accuracy uplift (RAG + eval)</div>
+                <div class="bar"><span style="width:86%"></span></div>
+                <div class="metric__hint muted">Target: fewer hallucinations, better grounding</div>
+              </div>
+
+              <div class="metric">
+                <div class="metric__label">Latency optimization (caching + routing)</div>
+                <div class="bar"><span style="width:78%"></span></div>
+                <div class="metric__hint muted">Target: faster responses at lower cost</div>
+              </div>
+
+              <div class="metric">
+                <div class="metric__label">Safety & compliance (guardrails)</div>
+                <div class="bar"><span style="width:90%"></span></div>
+                <div class="metric__hint muted">PII redaction, policy checks, jailbreak resistance</div>
+              </div>
+
+              <div class="callout">
+                <strong>Typical deliverables</strong>
+                <ul>
+                  <li>Architecture + roadmap</li>
+                  <li>Working demo + API</li>
+                  <li>Evaluation report</li>
+                  <li>Deployment plan</li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="panel__footer">
+              <span class="muted">Need a custom AI solution?</span>
+              <a class="link" href="#contact">Talk to us →</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Logos / Social Proof -->
+    <section class="logos">
+      <div class="container">
+        <p class="muted center">
+          Built for research-grade rigor and business-grade reliability.
+          <span class="nowrap">Open to global clients.</span>
+        </p>
+        <div class="logoRow">
+          <div class="logoPill">LLM Apps</div>
+          <div class="logoPill">RAG Systems</div>
+          <div class="logoPill">AI Agents</div>
+          <div class="logoPill">Computer Vision</div>
+          <div class="logoPill">MLOps</div>
+          <div class="logoPill">Security</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services -->
+    <section id="services" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Services</h2>
+          <p class="muted">
+            End-to-end AI engineering: from strategy and data to deployment and monitoring.
+          </p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card">
+            <h3>LLM Application Development</h3>
+            <p class="muted">ChatGPT-style apps for your workflows: summarization, search, customer support, analytics.</p>
+            <ul class="list">
+              <li>API-first architecture</li>
+              <li>Prompt & tool design</li>
+              <li>Cost & latency tuning</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>RAG Systems (Knowledge Chatbots)</h3>
+            <p class="muted">Grounded answers from your documents and databases with evaluation-driven tuning.</p>
+            <ul class="list">
+              <li>Ingestion + chunking + embeddings</li>
+              <li>Hybrid search (BM25 + vector)</li>
+              <li>Hallucination mitigation + citations</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>AI Agents & Automation</h3>
+            <p class="muted">Agentic workflows: planning, tool-calling, task execution, and human-in-the-loop control.</p>
+            <ul class="list">
+              <li>Multi-agent orchestration</li>
+              <li>Tool integration (APIs/DB/CRM)</li>
+              <li>Guardrails + audit logs</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Machine Learning & Deep Learning</h3>
+            <p class="muted">Custom models for prediction, classification, anomaly detection, and recommendation.</p>
+            <ul class="list">
+              <li>Feature engineering + training</li>
+              <li>Model selection + tuning</li>
+              <li>Explainability & evaluation</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>Computer Vision (CV)</h3>
+            <p class="muted">Object detection, tracking, OCR, segmentation, and video analytics for real-world systems.</p>
+            <ul class="list">
+              <li>YOLO/Detectors + fine-tuning</li>
+              <li>Video pipeline engineering</li>
+              <li>Edge deployment options</li>
+            </ul>
+          </article>
+
+          <article class="card">
+            <h3>MLOps & Deployment</h3>
+            <p class="muted">Reliable deployment with monitoring, CI/CD, and production safety controls.</p>
+            <ul class="list">
+              <li>Docker + cloud/edge</li>
+              <li>Observability + alerts</li>
+              <li>Versioning + reproducibility</li>
+            </ul>
+          </article>
+        </div>
+
+        <div class="ctaBand">
+          <div>
+            <h3>Want a clear plan + fixed deliverables?</h3>
+            <p class="muted">Share your goal and data sources. We’ll return a proposal with scope, timeline, and budget.</p>
+          </div>
+          <a class="btn btn--primary" href="#contact">Get Proposal</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Solutions -->
+    <section id="solutions" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Solutions We Build</h2>
+          <p class="muted">Practical systems that clients typically request, optimized for business value.</p>
+        </div>
+
+        <div class="grid twoCol">
+          <div class="feature">
+            <h3>Enterprise Knowledge Assistant</h3>
+            <p class="muted">RAG chatbot over PDFs, Notion/Confluence, tickets, wikis, and databases.</p>
+            <div class="feature__meta">
+              <span class="tag">Citations</span><span class="tag">Access control</span><span class="tag">Eval suite</span>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h3>Customer Support Chatbot</h3>
+            <p class="muted">Automate responses with escalation, CRM integration, and conversation analytics.</p>
+            <div class="feature__meta">
+              <span class="tag">Tool-calling</span><span class="tag">Guardrails</span><span class="tag">A/B tests</span>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h3>Agentic Workflow Automation</h3>
+            <p class="muted">Agents that execute tasks: generate reports, update docs, run analyses, trigger actions.</p>
+            <div class="feature__meta">
+              <span class="tag">Human-in-loop</span><span class="tag">Audit logs</span><span class="tag">Policy checks</span>
+            </div>
+          </div>
+
+          <div class="feature">
+            <h3>CV Video Intelligence</h3>
+            <p class="muted">Detect objects/risks, track events, and produce alerts and dashboards from CCTV/video.</p>
+            <div class="feature__meta">
+              <span class="tag">Detection</span><span class="tag">Tracking</span><span class="tag">Edge-ready</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work / Case studies -->
+    <section id="work" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Case Studies</h2>
+          <p class="muted">
+            Replace the placeholders below with your real projects as you publish repos and client work.
+          </p>
+        </div>
+
+        <div class="grid cards">
+          <article class="card card--work">
+            <div class="workTop">
+              <strong>RAG Knowledge Chatbot</strong>
+              <span class="pill">LLM • RAG</span>
+            </div>
+            <p class="muted">
+              Built a document-grounded assistant with hybrid search, answer citations, and evaluation harness.
+            </p>
+            <ul class="list">
+              <li>Reduced hallucinations using grounded retrieval</li>
+              <li>Added caching + routing for latency/cost</li>
+              <li>Delivered API + demo UI</li>
+            </ul>
+            <a class="link" href="#contact">Request similar build →</a>
+          </article>
+
+          <article class="card card--work">
+            <div class="workTop">
+              <strong>Agentic Automation Suite</strong>
+              <span class="pill">Agents • Tools</span>
+            </div>
+            <p class="muted">
+              Developed an AI agent that executes workflows with tool-calling, policy checks, and audit trails.
+            </p>
+            <ul class="list">
+              <li>Tool integration: DB/API/Docs</li>
+              <li>Human-in-the-loop approvals</li>
+              <li>Logging + monitoring</li>
+            </ul>
+            <a class="link" href="#contact">Discuss your workflow →</a>
+          </article>
+
+          <article class="card card--work">
+            <div class="workTop">
+              <strong>Computer Vision Pipeline</strong>
+              <span class="pill">CV • Video</span>
+            </div>
+            <p class="muted">
+              Deployed a detection + tracking pipeline for real-time alerts and analytics dashboards.
+            </p>
+            <ul class="list">
+              <li>Model fine-tuning + dataset QA</li>
+              <li>Realtime inference pipeline</li>
+              <li>Edge/cloud deployment</li>
+            </ul>
+            <a class="link" href="#contact">Build CV analytics →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Process -->
+    <section id="process" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>How We Work</h2>
+          <p class="muted">A clear, client-friendly delivery process with measurable milestones.</p>
+        </div>
+
+        <div class="grid steps">
+          <div class="step">
+            <div class="step__num">1</div>
+            <h3>Discovery & Scope</h3>
+            <p class="muted">Clarify objective, data sources, constraints, KPIs, and integration requirements.</p>
+          </div>
+          <div class="step">
+            <div class="step__num">2</div>
+            <h3>Architecture & Plan</h3>
+            <p class="muted">Select model strategy (LLM/RAG/Agent/CV), create roadmap, and define deliverables.</p>
+          </div>
+          <div class="step">
+            <div class="step__num">3</div>
+            <h3>Build & Iterate</h3>
+            <p class="muted">Ship PoC → MVP → production; run evaluations, optimize accuracy, latency, and cost.</p>
+          </div>
+          <div class="step">
+            <div class="step__num">4</div>
+            <h3>Deploy & Monitor</h3>
+            <p class="muted">CI/CD, logging, alerts, dashboards, guardrails, and continuous improvement.</p>
+          </div>
+        </div>
+
+        <div class="ctaBand">
+          <div>
+            <h3>Need fast delivery?</h3>
+            <p class="muted">We can deliver a working demo quickly, then scale to a production system.</p>
+          </div>
+          <a class="btn btn--primary" href="#contact">Start a Project</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Tech Stack</h2>
+          <p class="muted">We use modern, scalable tools — selected per client constraints and deployment needs.</p>
+        </div>
+
+        <div class="stack">
+          <div class="stack__col">
+            <h3>LLM / RAG</h3>
+            <div class="chips">
+              <span class="chip2">OpenAI / OSS LLMs</span>
+              <span class="chip2">Embeddings</span>
+              <span class="chip2">Vector DB</span>
+              <span class="chip2">Hybrid Search</span>
+              <span class="chip2">Eval Harness</span>
+              <span class="chip2">Guardrails</span>
+            </div>
+          </div>
+
+          <div class="stack__col">
+            <h3>Agents</h3>
+            <div class="chips">
+              <span class="chip2">Tool Calling</span>
+              <span class="chip2">Planning & Routing</span>
+              <span class="chip2">Memory</span>
+              <span class="chip2">Human-in-loop</span>
+              <span class="chip2">Audit Logs</span>
+            </div>
+          </div>
+
+          <div class="stack__col">
+            <h3>ML / CV / Deployment</h3>
+            <div class="chips">
+              <span class="chip2">PyTorch</span>
+              <span class="chip2">Transformers</span>
+              <span class="chip2">YOLO / Detectors</span>
+              <span class="chip2">FastAPI</span>
+              <span class="chip2">Docker</span>
+              <span class="chip2">Cloud / Edge</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- FAQ -->
+    <section id="faq" class="section section--alt">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>FAQ</h2>
+          <p class="muted">Common client questions (reduce friction and increase conversions).</p>
+        </div>
+
+        <div class="faq">
+          <details>
+            <summary>How fast can you deliver a working demo?</summary>
+            <p class="muted">
+              Typically we can deliver a proof-of-concept in a few days to 1–2 weeks depending on scope and data access.
+              For production MVPs, timelines are usually a few weeks.
+            </p>
+          </details>
+
+          <details>
+            <summary>Can you build with our data securely?</summary>
+            <p class="muted">
+              Yes. We can implement access control, PII redaction, encrypted storage, and private deployments. We also
+              support on-prem or VPC environments when required.
+            </p>
+          </details>
+
+          <details>
+            <summary>How do you reduce hallucinations in LLM chatbots?</summary>
+            <p class="muted">
+              We use RAG grounding with citations, evaluation-driven tuning, fallback strategies, confidence/routing,
+              and safety guardrails. We measure quality with an eval suite before production.
+            </p>
+          </details>
+
+          <details>
+            <summary>Do you support open-source and private client work?</summary>
+            <p class="muted">
+              Yes. We can build open-source components and also deliver private repositories with documentation,
+              deployment guides, and handover support.
+            </p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section">
+      <div class="container">
+        <div class="sectionHead">
+          <h2>Contact</h2>
+          <p class="muted">
+            Tell us your goal, data sources, and timeline. We’ll respond with a clear plan and proposal.
+          </p>
+        </div>
+
+        <div class="contactGrid">
+          <div class="contactCard">
+            <h3>Get a Proposal</h3>
+            <p class="muted">
+              For fastest response, send an email with:
+              <br/>• project goal • data sources • required integrations • deadline • budget range
+            </p>
+
+            <div class="contactRow">
+              <span class="icon">📧</span>
+              <div>
+                <div><strong>Email (public)</strong></div>
+                <div class="muted">miraj.ai.edu.uk@gmail.com</div>
+              </div>
+            </div>
+
+            <div class="contactRow">
+              <span class="icon">📍</span>
+              <div>
+                <div><strong>Location</strong></div>
+                <div class="muted">China • Working globally</div>
+              </div>
+            </div>
+
+            <div class="contactRow">
+              <span class="icon">🔗</span>
+              <div>
+                <div><strong>GitHub</strong></div>
+                <div class="muted">Publish repos + demos to build trust</div>
+              </div>
+            </div>
+
+            <div class="smallNote muted">
+              Tip: After you publish 2–3 strong repos, client conversion increases sharply.
+            </div>
+          </div>
+
+          <div class="contactCard">
+  <h3>Quick Message (copy-paste)</h3>
+  <p class="muted">GitHub Pages is static, so this button opens your email client with a ready template.</p>
+
+  <a class="btn btn--primary" id="emailBtn" href="#">
+    Email mirage-a2i@outlook.com (Template)
+  </a>
+
+  <div class="divider"></div>
+
+  <h4>Or email manually with this template:</h4>
+  <pre class="template" id="emailTemplate"></pre>
+</div>
+
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container footer__inner">
+        <div class="footer__left">
+          <div class="brand brand--footer">
+            <span class="brand__mark">M</span>
+            <span class="brand__text">
+              <strong>Mirage-AI</strong>
+              <span class="muted">AI Research & Engineering</span>
+            </span>
+          </div>
+          <p class="muted">
+            Building next-generation AI, LLM, RAG, and agent-based chatbot systems.
+            Research-driven. Innovation-focused. Open to global collaboration.
+          </p>
+        </div>
+
+        <div class="footer__right">
+          <a href="#services">Services</a>
+          <a href="#work">Case Studies</a>
+          <a href="#process">Process</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+
+      <div class="container footer__bottom">
+        <span class="muted">© <span id="year"></span> Mirage-AI. All rights reserved.</span>
+        <span class="muted">Built on GitHub Pages</span>
+      </div>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
