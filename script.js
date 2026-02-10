@@ -1,4 +1,5 @@
 (function () {
+  // Footer year
   const yearEl = document.getElementById("year");
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
@@ -23,31 +24,37 @@
     });
   }
 
-  // Email template + mailto
+  // Email template + mailto (ONLY one email address used across the whole site)
   const email = "mirage-a2i@outlook.com";
-  const subject = "Project Inquiry — AI/LLM/RAG/Agent/Chatbot";
+  const subject = "Project Inquiry — AI/LLM/RAG/Agents/Chatbots";
+
   const template =
 `Hello Mirage-AI Team,
 
-I’m interested in a project with the following details:
+I would like to request a proposal for an AI project.
 
-1) Goal / Use-case:
-- (e.g., RAG chatbot over internal docs, customer support agent, CV video analytics, ML prediction, etc.)
+1) Objective / Use-case:
+- (Example: RAG knowledge assistant, customer support chatbot, agentic automation, CV video analytics, ML prediction)
 
 2) Data sources:
-- (PDFs, website, database, API, tickets, logs, images, video, etc.)
+- (PDFs, web pages, database, APIs, tickets/logs, images, video, etc.)
 
 3) Required integrations:
-- (Slack, WhatsApp, CRM, ERP, Notion, Google Drive, internal DB, etc.)
+- (Slack/Teams, CRM, Notion/Confluence, Google Drive, internal DB, ERP, etc.)
 
 4) Deployment preference:
 - (Cloud / On-prem / VPC / Edge)
 
-5) Timeline & budget range:
-- Timeline:
-- Budget:
+5) Constraints:
+- Accuracy target:
+- Latency target:
+- Security/compliance needs (PII, access control, etc.):
 
-Please share a proposal with scope, milestones, deliverables, and estimated cost.
+6) Timeline & budget:
+- Timeline:
+- Budget range:
+
+Please respond with scope, milestones, deliverables, estimated cost, and next steps.
 
 Best regards,
 (Name)
@@ -55,9 +62,11 @@ Best regards,
 (Contact)
 `;
 
+  // Render template
   const tmplEl = document.getElementById("emailTemplate");
   if (tmplEl) tmplEl.textContent = template;
 
+  // Button mailto
   const emailBtn = document.getElementById("emailBtn");
   if (emailBtn) {
     const body = encodeURIComponent(template);
